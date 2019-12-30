@@ -32,7 +32,10 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_hash_creator[:key, "value"] = pioneer
+  if my_hash_creator[:key] = pioneer
+    puts my_hash_creator
+  else my_hash_creator[:key] = pioneer
+  end
 end
 
 def read_from_hash(hash, key)
